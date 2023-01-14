@@ -1,4 +1,5 @@
 # ML-DecisionTrees
-$\sum_{n=1}^{10} n^2$
 
-$$\sum_{n=1}^{10} n^2$$
+### Entropy as a Measure of Impurity
+
+Entropy(S) = $$\sum_{i=1}^{c} -p_i x \log(p_i)$$
