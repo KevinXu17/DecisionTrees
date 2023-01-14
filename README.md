@@ -1,8 +1,8 @@
 # ML-DecisionTrees
 
-### Measure of Impurity
+### 1 Measure of Impurity
 
-#### Classification
+#### 1.1 Classification
 
 #### Entropy
 
@@ -22,8 +22,12 @@ $$ InfoGain(F) = Entropy(S_1) - Entropy(S_2) $$
 
 $$ Gini(S) = 1 - \sum_{i=1}^{c} p_i^2 $$
 
-#### Regression
+#### 1.2 Regression
 
 #### SSR
 
 $$ SSR = \sum_{i=1}^{n} (y_i - \hat{y})  $$
+
+#### Tree Score
+
+$$  TreeScore(T)=SSR + \alpha|\tilde{T}| $$
